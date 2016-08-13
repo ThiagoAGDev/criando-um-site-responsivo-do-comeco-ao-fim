@@ -18,7 +18,7 @@
   "homepage": "https://github.com/ThiagoAGDev/criando-um-site-responsivo-do-comeco-ao-fim#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "^2.3.2",
     "gulp-watch": "^4.3.9"
   }
 }
