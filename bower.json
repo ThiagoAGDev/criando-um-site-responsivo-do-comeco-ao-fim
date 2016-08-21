@@ -1,0 +1,28 @@
+{
+  "name": "HTML",
+  "homepage": "https://github.com/ThiagoAGDev/criando-um-site-responsivo-do-comeco-ao-fim",
+  "authors": [
+    "ThiagoAgDev <thiago@plug.ag>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "font-awesome": "^4.6.3",
+    "bootstrap-sass": "^3.3.7",
+    "breakpoint-sass": "^2.7.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.6.3",
+    "bootstrap-sass": "^3.3.7",
+    "breakpoint-sass": "^2.7.0"
+  }
+}

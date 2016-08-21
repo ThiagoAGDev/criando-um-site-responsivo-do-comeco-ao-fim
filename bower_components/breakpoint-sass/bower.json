@@ -1,0 +1,18 @@
+{
+  "name": "breakpoint-sass",
+  "main": "stylesheets/_breakpoint.scss",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests",
+    "Rakefile",
+    "*.gemspec",
+    "lib",
+    "Gemfile"
+  ],
+  "dependencies": {
+    "sassy-maps": "<1.0.0"
+  }
+}
