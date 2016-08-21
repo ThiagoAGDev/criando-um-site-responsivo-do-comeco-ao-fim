@@ -1,0 +1,83 @@
+header
+	+clearfix
+	min-height: 475px
+	position: relative
+
+	&:after
+		content: ""
+		display: block
+		position: absolute
+		bottom: 0
+		width: 100%
+		height: 45px
+		+gradient(90deg, $verde, $azul)
+
+	background:
+		image: url('../images/fundo-slide-pagina-inicial.jpg')
+		position: top center
+		repeat: no-repeat
+		color: $preto
+		attachment: fixed
+		size: cover
+
+	.logo
+		float: left
+		margin: 30px 0 0 
+		img
+			width: 70px
+			height: 35px
+
+	.links
+		float: right
+		margin: 35px 0 0
+
+		nav,
+		.social
+			display: inline-block
+
+		nav
+			+breakpoint($tablet)
+				display: none
+
+			+breakpoint($celular)
+				display: none
+
+			ul
+				li
+					display: inline-block
+					margin: 0 20px 0 0
+					a
+						color: $branco
+						text-transform: uppercase
+
+		.social
+			li
+				display: inline-block
+				margin: 0 5px 0 0
+				a
+					color: $branco
+					display: block
+					border: 1px solid $branco
+					padding: 4px
+					width: 25px
+					height: 25px
+					line-height: 12px
+					text-align: center
+					+border-radius(120px)
+
+	h1
+		clear: both
+		margin: 190px auto 30px auto !important
+		font-weight: $light
+		border: 3px solid $branco
+		padding: 20px
+		display: table
+		+breakpoint($celular)
+			+font-size(40px)
+
+
+	h1,
+	p
+		color: $branco
+		text-align: center
+		text-transform: uppercase
