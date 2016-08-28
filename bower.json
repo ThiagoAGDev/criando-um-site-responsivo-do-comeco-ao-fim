@@ -15,14 +15,10 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "font-awesome": "^4.6.3",
-    "bootstrap-sass": "^3.3.7",
-    "breakpoint-sass": "^2.7.0"
-  },
   "dependencies": {
     "font-awesome": "^4.6.3",
     "bootstrap-sass": "^3.3.7",
-    "breakpoint-sass": "^2.7.0"
+    "breakpoint-sass": "^2.7.0",
+    "sass-flex-mixin": "^1.0.3"
   }
 }
