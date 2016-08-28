@@ -3,3 +3,4 @@ node_modules
 ._.DS_Store
 .sass-cache
 .sass-cache/*
+.__*
