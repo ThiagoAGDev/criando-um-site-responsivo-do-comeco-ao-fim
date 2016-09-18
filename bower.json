@@ -20,5 +20,8 @@
     "bootstrap-sass": "^3.3.7",
     "breakpoint-sass": "^2.7.0",
     "sass-flex-mixin": "^1.0.3"
+  },
+  "devDependencies": {
+    "imagehover.css": "*"
   }
 }
