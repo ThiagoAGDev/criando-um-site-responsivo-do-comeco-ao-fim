@@ -1,1 +1,53 @@
-section.contato
+header
+	min-height: 335px
+	margin: 0 0 25px
+	background:
+		image: url('../images/fundo-pagina-contato.jpg')
+		position: top center
+		repeat: no-repeat
+		color: $preto
+		size: cover
+	h1
+		margin-top: 120px !important
+
+.contato
+
+	form
+		
+		+clearfix
+		+make-sm-column(8)
+		+make-sm-column-offset(2)
+
+		.cols
+			+make-row
+		.col
+			+make-sm-column(6)
+
+		input,
+		select,
+		textarea
+			width: 100%
+			border: 2px solid $cinza-claro
+			padding: 7px
+			text-transform: uppercase
+			+transition(.3s)
+
+			&:hover
+				border-color: $azul
+
+			&:focus
+				border-color: $verde
+
+		select
+			height: 37px
+
+		button
+			background-color: transparent
+			display: table
+			margin: 0 auto
+
+		.bg-success,
+		.bg-danger
+			padding: 7px
+
+
