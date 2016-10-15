@@ -6,6 +6,7 @@
 		 <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/home.css">	
 		<link rel="stylesheet" href="css/geral.css">
+		<link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
 		<link rel="stylesheet" href="css/plugins.css">
 	</head>
 	<body>
@@ -23,7 +24,7 @@
 			<header>
 				<div class="container">
 
-					<div class="logo">
+					<div class="logo wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
 						<a href="index.html">
 							<img src="images/logo-tag-topo.svg" alt="Logo Topo Tag">
 						</a>
@@ -46,11 +47,11 @@
 						</a>
 
 						<ul class="social">
-							<li>
+							<li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
 								<a href="#"><i class="fa fa-facebook"></i></a>
 							</li>
 
-							<li>
+							<li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
 								<a href="#"><i class="fa fa-github-alt"></i></a>
 							</li>
 						</ul>
@@ -69,23 +70,23 @@
 					<div class="container">
 						<div class="itens">			
 							
-							<div class="foto">
+							<div class="foto wow flipInX" data-wow-duration="1s" data-wow-delay="5s">
 								<img src="images/foto-tag-miolo.png" alt="Foto TAG">
 							</div>
 
-							<div class="icone-lapis">
+							<div class="icone-lapis wow flipInX" data-wow-duration="1s" data-wow-delay="1s">
 								<i class="fa fa-pencil"></i>
 							</div>
 
-							<div class="icone-codigo">
+							<div class="icone-codigo wow flipInX" data-wow-duration="1s" data-wow-delay="2s">
 								<i class="fa fa-code"></i>
 							</div>
 
-							<div class="icone-coracao">
+							<div class="icone-coracao wow flipInX" data-wow-duration="1s" data-wow-delay="3s">
 								<i class="fa fa-heart"></i>
 							</div>
 
-							<div class="icone-compartilhar">
+							<div class="icone-compartilhar wow flipInX" data-wow-duration="1s" data-wow-delay="4s">
 								<i class="fa fa-share-alt"></i>
 							</div>
 						</div>
@@ -112,14 +113,15 @@
 		</div>
 
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/wow/dist/wow.min.js"></script>
 		<script>
-			$(function(){
-				
+			$(function(){				
 				$('.toggle').click(function(){
 					$('.layout').toggleClass('ativo');
 					$('.menu-responsivo').toggleClass('ativo');
 					$(this).toggleClass('ativo');
 				});
+				new WOW().init();
 			});
 		</script>
 	</body>
