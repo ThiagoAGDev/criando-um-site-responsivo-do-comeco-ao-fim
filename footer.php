@@ -3,17 +3,17 @@
 			<footer>
 				<div class="logo-rodape">
 					<a href="index.html">
-						<img src="images/logo-tag-rodape.svg" alt="Logo TAG Rodapé">
+						<img src="<?php bloginfo('template_url'); ?>/images/logo-tag-rodape.svg" alt="Logo TAG Rodapé">
 					</a>
 
-					<p>2016 Todos os Direitos Reservados</p>
+					<p><?php echo date('Y'); ?> Todos os Direitos Reservados. <a href="mailto:<?php bloginfo('admin_email'); ?>"><?php bloginfo('admin_email'); ?></a></p>
 				</div>
 				
 			</footer>
 		</div>
 
-		<script src="bower_components/jquery/dist/jquery.min.js"></script>
-		<script src="bower_components/wow/dist/wow.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/bower_components/wow/dist/wow.min.js"></script>
 		<script>
 			$(function(){				
 				$('.toggle').click(function(){
