@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="css/plugins.css">
 		<link rel="stylesheet" href="css/geral.css">
 	</head>
-	<body>
+	<body <?php body_class(); ?>>
 
 		<?php include('includes/organisms/menu-responsivo.php'); ?>	
 
