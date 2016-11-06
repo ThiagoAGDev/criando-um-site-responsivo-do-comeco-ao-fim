@@ -1,6 +1,6 @@
 <?php
 	/*
-		Template name: Sobre
+		template name: Sobre
 	*/
 	$style = 'sobre';
 	$chamada = '<strong>Quem</strong> sou <strong>Eu</strong>';

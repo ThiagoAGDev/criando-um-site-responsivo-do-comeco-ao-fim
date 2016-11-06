@@ -1,8 +1,5 @@
 <nav>
-	<ul>
-		<li><a href="index.php">Início</a></li>
-		<li><a href="sobre.php">Sobre</a></li>
-		<li><a href="portfolio.php">Portfolio</a></li>
-		<li><a href="contato.php">Contato</a></li>
-	</ul>
+	<?php wp_nav_menu(
+		array('theme_location' => 'header-menu' )
+	); ?>
 </nav>
