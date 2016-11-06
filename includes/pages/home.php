@@ -2,23 +2,23 @@
 	<div class="container">
 		<div class="itens">			
 			
-			<div class="foto wow flipInX" data-wow-duration="1s" data-wow-delay="5s">
+			<div class="foto">
 				<img src="<?php bloginfo('template_url'); ?>/images/foto-tag-miolo.png" alt="Foto TAG">
 			</div>
 
-			<div class="icone-lapis wow flipInX" data-wow-duration="1s" data-wow-delay="1s">
+			<div class="icone-lapis">
 				<i class="fa fa-pencil"></i>
 			</div>
 
-			<div class="icone-codigo wow flipInX" data-wow-duration="1s" data-wow-delay="2s">
+			<div class="icone-codigo">
 				<i class="fa fa-code"></i>
 			</div>
 
-			<div class="icone-coracao wow flipInX" data-wow-duration="1s" data-wow-delay="3s">
+			<div class="icone-coracao">
 				<i class="fa fa-heart"></i>
 			</div>
 
-			<div class="icone-compartilhar wow flipInX" data-wow-duration="1s" data-wow-delay="4s">
+			<div class="icone-compartilhar">
 				<i class="fa fa-share-alt"></i>
 			</div>
 		</div>

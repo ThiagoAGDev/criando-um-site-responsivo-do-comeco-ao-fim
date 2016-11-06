@@ -15,13 +15,13 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<?php include('includes/organisms/menu-responsivo.php'); ?>	
+		<?php include('includes/organisms/menu-responsivo.php'); ?>
 
 		<div class="layout">
 			<header>
 				<div class="container">
 
-					<div class="logo wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+					<div class="logo">
 						
 						<a href="<?php bloginfo('url'); ?>">
 							<img src="<?php bloginfo('template_url'); ?>/images/logo-tag-topo.svg" alt="Logo Topo Tag">
@@ -39,18 +39,17 @@
 						</a>
 
 						<ul class="social">
-							<li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+							<li>
 								<a href="#"><i class="fa fa-facebook"></i></a>
 							</li>
 
-							<li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
+							<li>
 								<a href="#"><i class="fa fa-github-alt"></i></a>
 							</li>
 						</ul>
 					</div>
 
 					<h1><?php echo $chamada; ?></h1>
-
 					<p>Code // Share // Reboot</p>
 
 				</div>
