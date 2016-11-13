@@ -1,4 +1,7 @@
 <?php
+	/*
+		template name: Portfolio
+	*/
 	$style = 'portfolio';
 	$chamada = '<strong>Meus</strong> Trabalhos';
 	include('header.php');
