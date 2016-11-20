@@ -19,10 +19,10 @@
     "font-awesome": "^4.6.3",
     "bootstrap-sass": "^3.3.7",
     "breakpoint-sass": "^2.7.0",
-    "sass-flex-mixin": "^1.0.3"
-  },
-  "devDependencies": {
+    "sass-flex-mixin": "^1.0.3",
     "imagehover.css": "*",
-    "wow": "wowjs#^1.1.2"
-  }
+    "wow": "^1.1.2",
+    "lightbox2": "^2.9.0"
+  },
+  "devDependencies": {}
 }

@@ -8,7 +8,11 @@
 		<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/<?php echo $style; ?>.css">	
+
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/wow/css/libs/animate.css">
+
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/lightbox2/dist/css/lightbox.min.css">
+
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/plugins.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/geral.css">
 
