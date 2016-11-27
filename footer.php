@@ -27,5 +27,6 @@
 				new WOW().init();
 			});
 		</script>
+		<?php wp_footer(); ?>
 	</body>
 </html>

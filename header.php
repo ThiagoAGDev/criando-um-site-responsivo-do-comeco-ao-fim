@@ -15,7 +15,8 @@
 
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/plugins.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/geral.css">
-
+		
+		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
 
