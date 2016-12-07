@@ -22,7 +22,8 @@
     "sass-flex-mixin": "^1.0.3",
     "imagehover.css": "*",
     "wow": "^1.1.2",
-    "lightbox2": "^2.9.0"
+    "lightbox2": "^2.9.0",
+    "slick-carousel": "^1.6.0"
   },
   "devDependencies": {}
 }

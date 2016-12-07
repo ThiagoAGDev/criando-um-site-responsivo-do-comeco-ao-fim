@@ -24,7 +24,25 @@
 				'supports'			=>	array('title', 'thumbnail', 'page-attributes'),
 				)
 		);
+
+
+		// Slide
+		register_post_type('slide',
+			array(
+				'labels'			=> array(
+					'name'			=> __('Slides'),
+					'singular_name' =>	__('Slide')
+					),
+				'public'			=> true,
+				'has_archive'		=> true,
+				'menu_icon'			=> 'dashicons-format-gallery',
+				'supports'			=>	array('title', 'editor', 'page-attributes'),
+				)
+		);
+
 	}
+
+
 	add_action('init', 'meus_posts_types');
 
 	// Tamanhos dinâmicos para thumbs
