@@ -1,0 +1,29 @@
+{
+  "name": "breakpoint-sass",
+  "main": "stylesheets/_breakpoint.scss",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests",
+    "Rakefile",
+    "*.gemspec",
+    "lib",
+    "Gemfile"
+  ],
+  "dependencies": {
+    "sassy-maps": "<1.0.0"
+  },
+  "homepage": "https://github.com/Team-Sass/breakpoint",
+  "version": "2.7.0",
+  "_release": "2.7.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.7.0",
+    "commit": "935eef3ac47ecfb1de9190ca634fbd2fbd74f66b"
+  },
+  "_source": "https://github.com/Team-Sass/breakpoint.git",
+  "_target": "^2.7.0",
+  "_originalSource": "breakpoint-sass"
+}
