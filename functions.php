@@ -24,8 +24,6 @@
 				'supports'			=>	array('title', 'thumbnail', 'page-attributes'),
 				)
 		);
-
-
 		// Slide
 		register_post_type('slide',
 			array(
@@ -41,8 +39,6 @@
 		);
 
 	}
-
-
 	add_action('init', 'meus_posts_types');
 
 	// Tamanhos dinâmicos para thumbs

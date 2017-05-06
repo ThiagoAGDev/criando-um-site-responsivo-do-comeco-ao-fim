@@ -82,9 +82,7 @@
 							endwhile; 
 							wp_reset_query();
 						?>
-					</div>
-
-					
+					</div>				
 
 				</div>
 			</header>
